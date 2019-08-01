@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="CouponLayout">
+        <attr name="coupon_background" format="reference|color"/>
+        <attr name="saw_radius" format="dimension"/>
+        <attr name="saw_gap" format="dimension"/>
+        <attr name="draw_gravity" format="integer">
+            <flag name="top" value="0x1"/>
+            <flag name="bottom" value="0x2"/>
+            <flag name="left" value="0x4"/>
+            <flag name="right" value="0x8"/>
+        </attr>
+    </declare-styleable>
+
+</resources>
